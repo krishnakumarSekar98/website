@@ -1,0 +1,33 @@
+{
+  "name": "muscle-fitness-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:locator": "LOCATOR=1 next dev",
+    "build": "next build",
+    "build:check": "NEXT_DIST_DIR=.next-build next build",
+    "start": "next start",
+    "clean": "rm -rf .next .next-build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.15",
+    "nodemailer": "^10.0.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@locator/webpack-loader": "^0.5.1",
+    "@types/node": "^20.16.0",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}
